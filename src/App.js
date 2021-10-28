@@ -1,13 +1,13 @@
-import './App.css';
-import ClassState from './components/ClassState';
-import FunctionState from './components/FunctionState';
+//import ClassState from './components/ClassState';
+//import FunctionState from './components/FunctionState';
+//import { Todo } from './components/Todo';
+import ClassCount from "./components/ClassCount";
 function App() {
+  
   return (
-    <div className="App">
-     <h1 className="text-center">useState Hooks</h1>
-     <ClassState/>
-     <hr />
-     <FunctionState/>
+    <div className="container">
+     {/* <Todo/> */}
+     <ClassCount/>
     </div>
   );
 }
